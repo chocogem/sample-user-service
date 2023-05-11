@@ -1,4 +1,8 @@
 package com.sample.user.model
 
-class UserResponse {
-}
+data class UserResponse (
+    var firstName:String?,
+    var lastName:String?,
+    var gender:String?,
+    var email: String?
+)
